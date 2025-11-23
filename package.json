@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "npx tailwindcss -i src/styles/input.css -o public/tailwind.css --watch",
-    "build": "npx tailwindcss -i src/styles/input.css -o public/tailwind.css --minify"
+    "build": "npx tailwindcss -i src/styles/input.css -o public/tailwind.css --minify",
+    "start": "npx serve public"
   },
-  "devDependencies": {
-    "tailwindcss": "^4.1.16"
+  "dependencies": {
+    "tailwindcss": "^4.1.16",
+    "serve": "^14.2.0"
   }
 }
