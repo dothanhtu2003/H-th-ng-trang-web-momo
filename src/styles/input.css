@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom project styles (kept) */
+/* You can copy rules from style.css or continue using style.css alongside Tailwind */
